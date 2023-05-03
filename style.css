@@ -1,0 +1,51 @@
+/* reset */
+*{
+    margin:0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+/* page container */
+main {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+/* right page section */
+.right {
+    padding-right: 60px;
+    padding-left: 60px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+    background-color: #F9FAFB;
+}
+
+/* right container elements */
+/* disclaimer */
+.disclaimer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+}
+
+h1 span {
+    display: block;
+    padding-top: 23px;
+}
+
+/* form container */
+.form-container h2 {
+    padding-bottom: 16px;
+}
+label,input {
+    display: block;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
